@@ -350,6 +350,7 @@
 		<reward type="Skill" id="Mining Tools" value="1" />
 		<reward type="Item" id="dynamite" value="5" />
 		<reward type="Item" id="pickaxeIron" value="300" />
+		<reward type="Quest" id="challenge_miner2" />
 	</quest>
 	
 		<quest id="challenge_miner2" group_name_key="quest_miner" name="Miner Quest 2/3" subtitle="Mining Challenge 2" description="Keep breaking those rocks" icon="ui_game_symbol_forge" 
@@ -361,7 +362,6 @@
 		<objective type="FetchKeep" id="potassiumNitratePowder" value="100" />
 		<reward type="Skill" id="Mining Tools" value="1" />
 		<reward type="Item" id="pickaxeIron" value="300" />
-		
 		<reward type="Quest" id="challenge_miner3" />
 	</quest>
 	
@@ -384,7 +384,7 @@
 		<objective type="AnimalKill" value="20"  />
 		<reward type="Skill" id="Blade Weapons" value="1" />
 		<reward type="Item" id="762mmBullet" value="25" />
-		<reward type="Quest" id="challenge_animaltrap" />
+		<reward type="Quest" id="challenge_hunter2" />
 	</quest>
 	
 	<quest id="challenge_hunter2" group_name_key="quest_hunter" name="Hunter Quest 2/3" subtitle="Hunter Challenge 2" description="Go kill some animals" icon="ui_game_symbol_archery" 
@@ -457,6 +457,7 @@
 		<reward type="Skill" id="Carpentry" value="1" />
 		<reward type="Skill" id="Axes" value="1" />
 		<reward type="Item" id="fireaxeIron" value="250" />
+		<reward type="Quest" id="challenge_builder2" />
 	</quest>
 	
 	<quest id="challenge_builder2" group_name_key="quest_builder" name="Builder Quest 2/3" subtitle="Builder Challenge 2" description="Gather some wood" icon="ui_game_symbol_hammer" 
@@ -486,6 +487,7 @@
 		<objective type="ZombieKill" value="30" />
 		<reward type="Item" id="762mmBullet" value="50" />
 		<reward type="Skill" id="Rifles" value="1" />
+		<reward type="Quest" id="challenge_rifleman2" />
 	</quest>
 	
 	<quest id="challenge_rifleman2" group_name_key="quest_rifleman" name="Rifleman Quest 2/3" subtitle="Rifleman Challenge 2" description="Snipe some zombies" icon="ui_game_symbol_rifle" 
@@ -521,6 +523,7 @@
 		<objective type="ZombieKill" value="30" />
 		<reward type="Item" id="44MagBullet" value="50" />
 		<reward type="Skill" id="Pistols" value="1" />
+		<reward type="Quest" id="challenge_gunman2" />
 	</quest>
 	
 	<quest id="challenge_gunman2" group_name_key="quest_gunman" name="Gunman Quest 2/3" subtitle="Gunman Challenge 2" description="Waste some zombies" icon="ui_game_symbol_rifle" 
@@ -556,6 +559,7 @@
 		<objective type="ZombieKill" value="30" />
 		<reward type="Item" id="9mmBullet" value="50" />
 		<reward type="Skill" id="Assault Rifles" value="1" />
+		<reward type="Quest" id="challenge_veteran2" />
 	</quest>
 	
 	<quest id="challenge_veteran2" group_name_key="quest_veteran" name="Veteran Quest 2/3" subtitle="Veteran Challenge 2" description="Eliminate Zed's" icon="ui_game_symbol_rifle" 
@@ -596,6 +600,7 @@
 		<reward type="Item" id="ironCrossbowBolt" value="50" />
 		<reward type="Skill" id="Archery" value="1" />
 		<reward type="Skill" id="Fletching" value="1" />
+		<reward type="Quest" id="challenge_survivor2" />
 	</quest>
 	
 	<quest id="challenge_survivor2" group_name_key="quest_survivor" name="Survivor Quest 2/3" subtitle="Survivor Challenge 2" description="Thin out some zombies." icon="ui_game_symbol_campfire" 
@@ -648,6 +653,7 @@
 		<reward type="Item" id="firstAidBandage" value="2" />
 		<reward type="Skill" id="Blade Weapons" value="1" />
 		<reward type="Skill" id="Blunt Weapons" value="1" />
+		<reward type="Quest" id="challenge_bruiser2" />
 	</quest>
 	
 	<quest id="challenge_bruiser2" group_name_key="quest_bruiser" name="Bruiser Quest 2/3" subtitle="Bruiser Challenge 2" description="Bust zombie skulls" icon="ui_game_symbol_club" 
@@ -695,6 +701,7 @@
 		<objective type="Craft" id="firstAidKit" value="3" />
 		<objective type="Craft" id="disinfectantBandage" value="5" />
 		<reward type="Skill" id="Medicine" value="3" />
+		<reward type="Quest" id="challenge_medic2" />
 	</quest>
 	
 	<quest id="challenge_medic2" group_name_key="quest_medic" name="Medic Quest 2/3" subtitle="Medic Challenge 2" description="Medic!!!!!" icon="ui_game_symbol_medical" 
@@ -972,9 +979,9 @@
 <quest id="challenge_Kickz" group_name_key="quest_Kickz" name="Kickz' Quest 1/2" subtitle="Kickz Challenge" description="Fleet of Foot" icon="ui_game_symbol_campfire" 
 repeatable="false" category_key="challenge" offer="The slow have no place in this world. Get a pair of 'Kickz' (tm) sports shoes for extra fast looting runs." difficulty="easy">
 <objective type="FetchKeep" id="kickzBoots" value="1" />
-<objective type="Wear" id="kickzBoots" />
+<!--objective type="Wear" id="kickzBoots" /-->
 <reward type="Skill" id="Athletics" value="1" />
-<reward type="Quest" id="challenge_Kickz3" />
+<reward type="Quest" id="challenge_Kickz2" />
 </quest>
 
 <quest id="challenge_Kickz2" name="Kickz' Quest 2/3" subtitle="Off to the races" description="Well, see if they fit, already." icon="ui_game_symbol_campfire" 
